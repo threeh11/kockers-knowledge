@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Микросервисная архитектура/Kafka/Base.md",
+                "file": "Frames/Sy/Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Base"
+              "title": "Без названия"
             }
           }
         ]
@@ -170,11 +170,13 @@
   },
   "active": "efa3d5c286512107",
   "lastOpenFiles": [
+    "Frames/React/Без названия.md",
+    "Frames/Sy/Без названия.md",
+    "Микросервисная архитектура/Kafka/Base.md",
     "Frames/React",
     "Frames/Sy",
     "Frames",
     "Микросервисная архитектура/Kafka/Apache AVRO.md",
-    "Микросервисная архитектура/Kafka/Base.md",
     "images/Pasted image 20250418212852.png",
     "images/Pasted image 20250519233732.png",
     "images",
@@ -204,7 +206,6 @@
     "Работа",
     "Мечта/Безопасность контейнеров.md",
     "Сети/Курсовая по сетям.md",
-    "Теория тестирования",
-    "save.sh"
+    "Теория тестирования"
   ]
 }
