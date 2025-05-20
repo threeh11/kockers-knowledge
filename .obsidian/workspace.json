@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25eda7144fc4b26f",
+        "id": "8c7321446741df69",
         "type": "tabs",
         "children": [
           {
-            "id": "135a570865f8f362",
+            "id": "e7b038732a28dc9c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,16 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "efa3d5c286512107",
+  "active": "e7b038732a28dc9c",
   "lastOpenFiles": [
+    "Frameworks/React/Vite/TailwindCss.md",
+    "Frameworks/React/Vite/configs",
+    "Frameworks/React/Vite/configs/index.scss.md",
+    "Frameworks/React/Vite/configs/tailwind.config.js.md",
+    "Frameworks/React/Vite/configs/postcss.config.js.md",
+    "Frameworks/React/Vite/tailwindCss",
+    "Frameworks/React/Vite/tailwind.css",
+    "Frameworks/React/Vite",
     "Frameworks/Symfony/Без названия.md",
     "Frameworks/React/Без названия.md",
     "Frameworks/Symfony",
@@ -177,13 +185,11 @@
     "Frames/React/Без названия.md",
     "Frames/Sy",
     "Frames/React",
-    "Frames",
     "Микросервисная архитектура/RabbitMQ/BASE.md",
     "Микросервисная архитектура/Kafka/Apache AVRO.md",
     "Микросервисная архитектура/Kafka/Base.md",
     "images/Pasted image 20250418212852.png",
     "images/Pasted image 20250519233732.png",
-    "images",
     "images/Pasted image 20250519233709.png",
     "images/Pasted image 20250519224251.png",
     "images/Pasted image 20250519222116.png",
@@ -197,8 +203,6 @@
     "images/Pasted image 20250519233752.png",
     "images/Pasted image 20250519233459.png",
     "images/Pasted image 20250519223621.png",
-    "Микросервисная архитектура/Kafka",
-    "Микросервисная архитектура",
     "Работа/В целом о тестах.md",
     "up_to_8.2/up to 8.2.md",
     "Работа/Разворачивание CRM.md",
