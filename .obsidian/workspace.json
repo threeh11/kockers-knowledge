@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "48749c0c65580a65",
+        "id": "25eda7144fc4b26f",
         "type": "tabs",
         "children": [
           {
-            "id": "ac25168c7096241d",
+            "id": "135a570865f8f362",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Frames/Sy/Без названия.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
     "id": "475c777390fb06c2",
@@ -170,13 +166,21 @@
   },
   "active": "efa3d5c286512107",
   "lastOpenFiles": [
-    "Frames/React/Без названия.md",
+    "Frameworks/Symfony/Без названия.md",
+    "Frameworks/React/Без названия.md",
+    "Frameworks/Symfony",
+    "Frameworks/React",
+    "Frameworks",
+    "Frames/Symfony/Без названия.md",
+    "Frames/Symfony",
     "Frames/Sy/Без названия.md",
-    "Микросервисная архитектура/Kafka/Base.md",
-    "Frames/React",
+    "Frames/React/Без названия.md",
     "Frames/Sy",
+    "Frames/React",
     "Frames",
+    "Микросервисная архитектура/RabbitMQ/BASE.md",
     "Микросервисная архитектура/Kafka/Apache AVRO.md",
+    "Микросервисная архитектура/Kafka/Base.md",
     "images/Pasted image 20250418212852.png",
     "images/Pasted image 20250519233732.png",
     "images",
@@ -189,23 +193,18 @@
     "Без названия 1.canvas",
     "Без названия 2.canvas",
     "2025-05-20.md",
-    "Микросервисная архитектура/RabbitMQ/BASE.md",
     "Микросервисная архитектура/Gateway api.md",
     "images/Pasted image 20250519233752.png",
     "images/Pasted image 20250519233459.png",
     "images/Pasted image 20250519223621.png",
     "Микросервисная архитектура/Kafka",
     "Микросервисная архитектура",
-    "Микросервисная архитектура/RabbitMQ",
     "Работа/В целом о тестах.md",
     "up_to_8.2/up to 8.2.md",
-    "up_to_8.2",
     "Работа/Разворачивание CRM.md",
     "Работа/Настройка почты для тестовой отправки..md",
     "Теория тестирования/Unit-тестирование.md",
-    "Работа",
     "Мечта/Безопасность контейнеров.md",
-    "Сети/Курсовая по сетям.md",
-    "Теория тестирования"
+    "Сети/Курсовая по сетям.md"
   ]
 }
