@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "7afb092f4ed319ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "48749c0c65580a65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac25168c7096241d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "94c078b6a7fb394a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Микросервисная архитектура/Kafka/Apache AVRO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apache AVRO"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b645996cf42e684",
+    "type": "split",
+    "children": [
+      {
+        "id": "a821beba35bb1f1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efa3d5c286512107",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "be46fb6e46702708",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "83ff5480f070b9c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "475c777390fb06c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4009a5a2f4f545ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1eb3bec4b1e1efc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Работа/Настройка почты для тестовой отправки..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Настройка почты для тестовой отправки."
+            }
+          },
+          {
+            "id": "5dabd5ae88877dce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Работа/Настройка почты для тестовой отправки..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Настройка почты для тестовой отправки."
+            }
+          },
+          {
+            "id": "80aa0dee1635d2aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3b27807bd90d1686",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Работа/Настройка почты для тестовой отправки..md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Настройка почты для тестовой отправки."
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "94c078b6a7fb394a",
+  "lastOpenFiles": [
+    "Микросервисная архитектура/Kafka/Base.md",
+    "Микросервисная архитектура/Kafka/Apache AVRO.md",
+    "Без названия 2.canvas",
+    "Без названия 1.canvas",
+    "2025-05-20.md",
+    "Микросервисная архитектура/RabbitMQ/BASE.md",
+    "Микросервисная архитектура/Gateway api.md",
+    "Pasted image 20250418212852.png",
+    "Pasted image 20250418212954.png",
+    "Без названия.canvas",
+    "Pasted image 20250519224251.png",
+    "Pasted image 20250519222116.png",
+    "Pasted image 20250418212931.png",
+    "Pasted image 20250519233752.png",
+    "Pasted image 20250519233732.png",
+    "Pasted image 20250519233709.png",
+    "Pasted image 20250519233459.png",
+    "Pasted image 20250519223621.png",
+    "Микросервисная архитектура/Kafka",
+    "Микросервисная архитектура",
+    "Микросервисная архитектура/RabbitMQ",
+    "Работа/В целом о тестах.md",
+    "up_to_8.2/up to 8.2.md",
+    "up_to_8.2",
+    "Работа/Разворачивание CRM.md",
+    "Работа/Настройка почты для тестовой отправки..md",
+    "Теория тестирования/Unit-тестирование.md",
+    "Работа",
+    "Мечта/Безопасность контейнеров.md",
+    "Сети/Курсовая по сетям.md",
+    "Теория тестирования",
+    "save.sh",
+    "Фишечки3000",
+    "Php",
+    "Мечта"
+  ]
+}
