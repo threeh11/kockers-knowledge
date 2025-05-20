@@ -11,12 +11,14 @@
             "id": "ac25168c7096241d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20250418212852.png"
+                "file": "Микросервисная архитектура/Kafka/Base.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250418212852"
+              "icon": "lucide-file",
+              "title": "Base"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "475c777390fb06c2",
@@ -168,6 +170,12 @@
   },
   "active": "efa3d5c286512107",
   "lastOpenFiles": [
+    "Frames/React",
+    "Frames/Sy",
+    "Frames",
+    "Микросервисная архитектура/Kafka/Apache AVRO.md",
+    "Микросервисная архитектура/Kafka/Base.md",
+    "images/Pasted image 20250418212852.png",
     "images/Pasted image 20250519233732.png",
     "images",
     "images/Pasted image 20250519233709.png",
@@ -175,13 +183,10 @@
     "images/Pasted image 20250519222116.png",
     "images/Pasted image 20250418212954.png",
     "images/Pasted image 20250418212931.png",
-    "images/Pasted image 20250418212852.png",
     "Без названия.canvas",
     "Без названия 1.canvas",
     "Без названия 2.canvas",
-    "Микросервисная архитектура/Kafka/Apache AVRO.md",
     "2025-05-20.md",
-    "Микросервисная архитектура/Kafka/Base.md",
     "Микросервисная архитектура/RabbitMQ/BASE.md",
     "Микросервисная архитектура/Gateway api.md",
     "images/Pasted image 20250519233752.png",
@@ -200,8 +205,6 @@
     "Мечта/Безопасность контейнеров.md",
     "Сети/Курсовая по сетям.md",
     "Теория тестирования",
-    "save.sh",
-    "Фишечки3000",
-    "Php"
+    "save.sh"
   ]
 }
