@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "923e241e29c4b4d2",
+        "id": "d8e977f7ac8645e7",
         "type": "tabs",
         "children": [
           {
-            "id": "c0c95f3e8a10d87f",
+            "id": "3fca1207d9e245a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,16 +164,19 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c0c95f3e8a10d87f",
+  "active": "efa3d5c286512107",
   "lastOpenFiles": [
+    "Frameworks/React/Hooks/useMemo.md",
+    "Frameworks/React/Hooks/useCallback.md",
+    "Frameworks/React/Hooks",
+    "Frameworks/React/Vite/configs/postcss.config.js.md",
+    "Frameworks/React/Vite/TailwindCss.md",
+    "Frameworks/React/Vite/configs/index.scss.md",
+    "Frameworks/React/Vite/configs/tailwind.config.js.md",
     "Frameworks/Symfony/Без названия.md",
     "Frameworks/React/Typescript/Generic - с чем это едят.md",
-    "Frameworks/React/Vite/TailwindCss.md",
-    "Frameworks/React/Vite/configs/tailwind.config.js.md",
     "Frameworks/React/Typescript",
-    "Frameworks/React/Vite/configs/postcss.config.js.md",
     "Frameworks/React/Vite/configs",
-    "Frameworks/React/Vite/configs/index.scss.md",
     "Frameworks/React/Vite/tailwindCss",
     "Frameworks/React/Vite/tailwind.css",
     "Frameworks/React/Vite",
@@ -185,7 +188,6 @@
     "Frames/Symfony",
     "Frames/Sy/Без названия.md",
     "Frames/React/Без названия.md",
-    "Frames/Sy",
     "Микросервисная архитектура/RabbitMQ/BASE.md",
     "Микросервисная архитектура/Kafka/Apache AVRO.md",
     "Микросервисная архитектура/Kafka/Base.md",
