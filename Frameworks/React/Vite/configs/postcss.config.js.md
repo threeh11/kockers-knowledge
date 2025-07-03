@@ -1,6 +1,9 @@
-`export default {`
-    `plugins: {`
-      `tailwindcss: {},`
-      `autoprefixer: {},`
-    `},`
-`};`
+
+```javascript
+export default {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+};
+```

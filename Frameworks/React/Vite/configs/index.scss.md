@@ -1,4 +1,7 @@
-`@import "tailwindcss";`
-`@import "tailwindcss/preflight";`
 
-`@tailwind utilities;`
+```css
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+
+@tailwind utilities;
+```

@@ -1,9 +1,12 @@
 ## Что такое Generic?
+
 Generic - это способ создавать переиспользуемые компоненты, функции и типы, которые могут работать с разными типами данных, сохраняя при этом типобезопасность.
 
 ## Зачем нужны Generic?
+
 Без дженериков мы бы столкнулись с проблемами:
-```
+
+```typescript
 // Плохо: дублирование кода
 function selectAllStrings(items: string[], selected: string[]): string[] {
   return items.length === selected.length ? [] : items;
@@ -24,7 +27,7 @@ function selectAllAny(items: any[], selected: any[]): any[] {
 ```
 ## На примере
 
-```
+```typescript
 // T - это параметр типа (generic parameter)
 export function useSelectAll<T>({
   items: T[],           // T[] означает "массив элементов типа T"
@@ -37,8 +40,10 @@ export function useSelectAll<T>({
 ```
 
 ## Различные способы использования Generic
+
 1.  Автовывод типов (Type Inference)
-```
+
+```typescript
 // TypeScript автоматически определяет тип
 const schedules: Schedule[] = [...];
 const { toggleSelectAll } = useSelectAll({
@@ -47,8 +52,10 @@ const { toggleSelectAll } = useSelectAll({
   setSelectedItems: setSchedules,
 });
 ```
+
 2. Явное указание типа
-```
+
+```typescript
 // Мы явно указываем тип
 const { toggleSelectAll } = useSelectAll<Schedule>({
   items: schedules,
@@ -56,8 +63,10 @@ const { toggleSelectAll } = useSelectAll<Schedule>({
   setSelectedItems: setSelectedSchedules,
 });
 ```
+
 3. Generic с ограничениями (Constraints)
-```
+
+```typescript
 // T должен иметь свойство id
 interface HasId {
   id: string;
@@ -73,8 +82,10 @@ function useSelectAllWithId<T extends HasId>({
 ```
 
 ## Примеры использования в разных сценариях
+
 1. Пример: Работа с пользователями
-```
+
+```typescript
 interface User {
   id: string;
   name: string;
@@ -96,8 +107,10 @@ const UserList = () => {
   return <SelectAllButton /* props */ />;
 };
 ```
+
 2. Пример: Работа с числами
-```
+
+```typescript
 const NumberSelector = () => {
   const [numbers] = useState<number[]>([1, 2, 3, 4, 5]);
   const [selectedNumbers, setSelectedNumbers] = useState<number[]>([]);

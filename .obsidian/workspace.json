@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d8e977f7ac8645e7",
+        "id": "17fc51c06c418c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "3fca1207d9e245a7",
+            "id": "3f01bcc42b5d17a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 311.5
   },
   "right": {
     "id": "475c777390fb06c2",
@@ -164,17 +164,26 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "efa3d5c286512107",
+  "active": "3f01bcc42b5d17a4",
   "lastOpenFiles": [
-    "Frameworks/React/Hooks/useMemo.md",
-    "Frameworks/React/Hooks/useCallback.md",
-    "Frameworks/React/Hooks",
-    "Frameworks/React/Vite/configs/postcss.config.js.md",
-    "Frameworks/React/Vite/TailwindCss.md",
     "Frameworks/React/Vite/configs/index.scss.md",
+    "Frameworks/React/Vite/configs/postcss.config.js.md",
     "Frameworks/React/Vite/configs/tailwind.config.js.md",
-    "Frameworks/Symfony/Без названия.md",
+    "Frameworks/React/Vite/TailwindCss.md",
     "Frameworks/React/Typescript/Generic - с чем это едят.md",
+    "Frameworks/React/Hooks/useCallback.md",
+    "Frameworks/React/Hooks/useMemo.md",
+    "MongoDB/TypeGoose/🌐 TypeGraphQL - Работа с GraphQL.md",
+    "MongoDB/TypeGoose/🎨 Декораторы - Подробно.md",
+    "MongoDB/TypeGoose/🎯 Общая концепция.md",
+    "MongoDB/TypeGoose/🏗️ TypeGoose - Работа с MongoDB.md",
+    "MongoDB/TypeGoose/📋 Практические паттерны.md",
+    "MongoDB/TypeGoose/🔧 Настройки и конфигурация.md",
+    "MongoDB/TypeGoose/getModelForClass.md",
+    "MongoDB/TypeGoose",
+    "MongoDB",
+    "Frameworks/React/Hooks",
+    "Frameworks/Symfony/Без названия.md",
     "Frameworks/React/Typescript",
     "Frameworks/React/Vite/configs",
     "Frameworks/React/Vite/tailwindCss",
@@ -183,9 +192,7 @@
     "Frameworks/React/Без названия.md",
     "Frameworks/Symfony",
     "Frameworks/React",
-    "Frameworks",
     "Frames/Symfony/Без названия.md",
-    "Frames/Symfony",
     "Frames/Sy/Без названия.md",
     "Frames/React/Без названия.md",
     "Микросервисная архитектура/RabbitMQ/BASE.md",
@@ -207,11 +214,6 @@
     "images/Pasted image 20250519233459.png",
     "images/Pasted image 20250519223621.png",
     "Работа/В целом о тестах.md",
-    "up_to_8.2/up to 8.2.md",
-    "Работа/Разворачивание CRM.md",
-    "Работа/Настройка почты для тестовой отправки..md",
-    "Теория тестирования/Unit-тестирование.md",
-    "Мечта/Безопасность контейнеров.md",
-    "Сети/Курсовая по сетям.md"
+    "up_to_8.2/up to 8.2.md"
   ]
 }

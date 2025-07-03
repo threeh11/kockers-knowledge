@@ -2,7 +2,7 @@ useCallback - это близкий родственник useMemo, но дл
 
 ## Что такое useCallback?
 
-```
+```typescript
 const memoizedCallback = useCallback(() => {
   // Логика функции
   doSomething(a, b);
@@ -10,7 +10,7 @@ const memoizedCallback = useCallback(() => {
 ```
 ## Ключевое отличие от useMemo
 
-```
+```typescript
 // useMemo мемоизирует РЕЗУЛЬТАТ вычисления
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 
@@ -24,7 +24,7 @@ const memoizedCallback = useMemo(() => (x) => doSomething(a, b, x), [a, b]);
 
 ❌ Функции, которые не передаются как пропсы
 
-```
+```typescript
 const MyComponent = () => {
   // ПЛОХО - функция используется только внутри компонента
   const handleLocalClick = useCallback(() => {
@@ -42,7 +42,7 @@ const MyComponent = () => {
 
  ❌ Функции без зависимостей, которые создаются редко
 
-```
+```typescript
 const MyComponent = () => {
   // ПЛОХО - бессмысленная оптимизация
   const simpleHandler = useCallback(() => {
@@ -61,7 +61,7 @@ const MyComponent = () => {
 
  ✅ 1. Функции, передаваемые в memo-компоненты
 
-```
+```typescript
 // Дочерний компонент обернут в memo
 const ExpensiveChild = React.memo(({ onAction, data }) => {
   console.log('ExpensiveChild рендерится');
@@ -103,7 +103,7 @@ const ParentComponent = ({ items }) => {
 Важно! В примере выше есть проблема - мы все равно создаем новую функцию в onAction={() => handleAction(item.id)}.
 Правильное решение:
 
-```
+```typescript
 const ParentComponent = ({ items }) => {
   const [count, setCount] = useState(0);
 
@@ -138,7 +138,7 @@ const ExpensiveChild = React.memo(({ onAction, data, itemId }) => {
 
 ✅ 2. Зависимости для других хуков
 
-```
+```typescript
 const DataComponent = ({ userId }) => {
   const [data, setData] = useState(null);
 
@@ -170,7 +170,7 @@ const DataComponent = ({ userId }) => {
 
 Посмотрим на код:
 
-```
+```typescript
 const filterFunction = React.useCallback((schedule: Schedule) => {
   if (isAcceptingMode) {
     return schedule.status === 'DRAFT';
@@ -182,18 +182,15 @@ const filterFunction = React.useCallback((schedule: Schedule) => {
 Почему здесь нужен useCallback?
 
 1. Функция передается в useSelectAll хук
-
 2. useSelectAll использует эту функцию как зависимость для useMemo
-
 3. Без useCallback функция пересоздавалась бы при каждом рендере
-
 4. Это приводило бы к ненужным пересчетам в useMemo
 
 ## Практические примеры
 
 ### Пример 1: Обработчики событий для списков
 
-```
+```typescript
 const TodoList = ({ todos }) => {
   const [editingId, setEditingId] = useState(null);
 
@@ -249,7 +246,7 @@ const TodoItem = React.memo(({ todo, isEditing, onToggle, onDelete, onEdit, onSa
 ```
 ### Пример 2: Дебаунс и троттлинг
 
-```
+```typescript
 const SearchComponent = () => {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
@@ -286,7 +283,7 @@ const SearchComponent = () => {
 ```
 ### Пример 3: Кастомные хуки
 
-```
+```typescript
 // Кастомный хук для API вызовов
 const useApi = (endpoint) => {
   const [data, setData] = useState(null);
@@ -334,7 +331,7 @@ const UserProfile = ({ userId }) => {
 
 ❌ Ошибка 1: Забыли зависимости
 
-```
+```typescript
 const MyComponent = ({ userId, filters }) => {
   const [data, setData] = useState([]);
 
@@ -353,7 +350,7 @@ const MyComponent = ({ userId, filters }) => {
 
 ❌ Ошибка 2: Излишнее использование
 
-```
+```typescript
 const MyComponent = () => {
   // ❌ Ненужный useCallback для внутренней функции
   const handleClick = useCallback(() => {
@@ -371,7 +368,7 @@ const MyComponent = () => {
 
 ❌ Ошибка 3: Объекты в зависимостях
 
-```
+```typescript
 const MyComponent = ({ config }) => {
   // ❌ config может быть новым объектом каждый раз
   const handleSubmit = useCallback((data) => {
@@ -389,7 +386,7 @@ const MyComponent = ({ config }) => {
 
 ### 1. useCallback с useRef для доступа к актуальному состоянию
 
-```
+```typescript
 const ChatComponent = () => {
   const [messages, setMessages] = useState([]);
   const messagesRef = useRef(messages);
@@ -413,7 +410,7 @@ const ChatComponent = () => {
 ```
 ### 2. Условный useCallback
 
-```
+```typescript
 const DataTable = ({ data, sortable }) => {
   // Создаем callback только если нужна сортировка
   const handleSort = useCallback(
@@ -441,7 +438,7 @@ const DataTable = ({ data, sortable }) => {
 
 ### 🔍 Способ 2: Логирование в дочерних компонентах
 
-```
+```typescript
 const ChildComponent = React.memo(({ onClick, data }) => {
   console.log('ChildComponent рендер', data.id);
   return <div onClick={onClick}>{data.name}</div>;
@@ -450,7 +447,7 @@ const ChildComponent = React.memo(({ onClick, data }) => {
 
 ### 🔍 Способ 3: Проверка ссылочного равенства
 
-```
+```typescript
 const MyComponent = () => {
   const callback1 = () => console.log('Without useCallback');
   const callback2 = useCallback(() => console.log('With useCallback'), []);
@@ -470,28 +467,21 @@ const MyComponent = () => {
 ### ✅ Используйте useCallback когда:
 
 1. Функция передается в memo-компоненты
-
 2. Функция является зависимостью для других хуков
-
 3. Функция передается в дочерние компоненты, которые оптимизированы
-
 4. Функция содержит дорогие операции или создает замыкания
-
 ### ❌ НЕ используйте useCallback когда:
 
 1. Функция используется только внутри компонента
-
 2. Дочерние компоненты не оптимизированы (не используют memo)
-
 3. Зависимости функции меняются при каждом рендере
-
 4. Добавляете "на всякий случай"
 
 ## Заключение
 
 В нашем компоненте SelectAllButton:
 
-```
+```typescript
 const filterFunction = React.useCallback((schedule: Schedule) => {
   if (isAcceptingMode) {
     return schedule.status === 'DRAFT';
@@ -503,11 +493,8 @@ const filterFunction = React.useCallback((schedule: Schedule) => {
 Это оправдано, потому что:
 
 1. Функция передается в хук useSelectAll
-
 2. Хук использует функцию как зависимость для useMemo
-
 3. Без useCallback функция пересоздавалась бы каждый рендер
-
 4. Это приводило бы к ненужным пересчетам фильтрации
 
 Помните: useCallback - это оптимизация для предотвращения ненужных рендеров. Используйте его осознанно, когда видите реальную проблему производительности
